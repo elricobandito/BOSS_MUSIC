@@ -1,0 +1,26 @@
+{
+  "name": "BOSS_MUSIC",
+  "install": "npm install",
+  "terminals": [
+    {
+      "name": "api",
+      "command": "npm run dev:server",
+      "description": "BOSS_MUSIC Express API on port 3001"
+    },
+    {
+      "name": "web",
+      "command": "npm run dev:client",
+      "description": "Vite dev server for the React client on port 5173 (proxies /api to 3001)"
+    }
+  ],
+  "ports": [
+    {
+      "name": "api",
+      "port": 3001
+    },
+    {
+      "name": "web",
+      "port": 5173
+    }
+  ]
+}

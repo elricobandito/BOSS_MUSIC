@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# Local runtime data (seeded on first run)
+server/data/songs.json
